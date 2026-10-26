@@ -1,0 +1,104 @@
+/* ===== SIDEBAR ===== */
+.main-sidebar {
+    background-color: #D9D9D1 !important;
+}
+
+/* ===== BOX SUPERIOR (I.E.P) ===== */
+.brand-link {
+    background-color: #D9D9D1 !important;
+    color: #006549 !important;
+    border-bottom: 1px solid #c5c5bd !important;
+}
+
+/* ===== MODULOS NORMALES ===== */
+.nav-sidebar > .nav-item > .nav-link {
+    background-color: white !important;
+    color: #006549 !important;
+    border-radius: 6px;
+    margin: 6px 0;
+    padding: 10px 15px;
+}
+
+/* ===== HOVER ===== */
+.nav-sidebar > .nav-item > .nav-link:hover {
+    background-color: #006549 !important;
+    color: white !important;
+}
+
+/* ===== SOLO EL ACTIVO REAL ===== */
+.nav-sidebar > .nav-item > .nav-link.active {
+    background-color: #006549 !important;
+    color: white !important;
+}
+
+/* ===== SUBMENUS ===== */
+.nav-treeview .nav-link {
+    background-color: #f8f8f8 !important;
+    color: #006549 !important;
+}
+
+/* ===== CERRAR SESIÓN (independiente) ===== */
+.nav-sidebar .nav-link.nav-logout {
+    background-color: #006549 !important;
+    color: white !important;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+.nav-sidebar .nav-link.nav-logout:hover {
+    background-color: #004d3a !important;
+    color: white !important;
+}
+/* Rotación cuando el menú está abierto */
+.nav-sidebar .menu-open > .nav-link .right {
+    transform: rotate(-90deg);
+    transition: transform 0.3s ease;
+}
+.brand-image {
+    float: none !important;
+    height: 60px !important;
+    width: 60px !important;
+    max-height: 60px !important;
+    border-radius: 50% !important;
+    object-fit: cover;
+}
+.brand-link {
+    display: flex !important;
+    flex-direction: column;   /* uno debajo del otro */
+    align-items: center;      /* centra horizontal */
+    justify-content: center;  /* centra vertical */
+    text-align: center;
+}
+
+.brand-image {
+    float: none !important;
+    margin: 0 auto 5px auto;  /* pequeño espacio debajo */
+}
+
+.bg-esmeralda {
+    background-color: #009975 !important;
+    color: white !important;
+}
+
+/* Caja principal institucional */
+.small-box.caja-institucional {
+    background-color: #D9D9D1 !important;
+    color: #000000 !important;
+}
+
+/* Iconos más suaves */
+.small-box.caja-institucional .icon {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+/* Barra inferior */
+.small-box.caja-institucional .small-box-footer {
+    background-color: #006549 !important;
+    color: white !important;
+}
+
+/* Hover opcional más elegante */
+.small-box.caja-institucional .small-box-footer:hover {
+    background-color: #004c36 !important;
+}
+
